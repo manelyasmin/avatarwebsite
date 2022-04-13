@@ -5,7 +5,7 @@ import TypeWriterText from "../components/TypeWriterText/TypeWriterText .js";
 import CoverVideo from "../components/coverVideo/CoverVideo";
 function Home() {
   return (
-    <HomeStyle>
+    <HomeStyle id="home">
     <Container>
       <Box><TypeWriterText /></Box>
       <Box><CoverVideo/></Box>

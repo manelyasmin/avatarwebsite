@@ -7,8 +7,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Roadmap from "./Pages/Roadmap";
 import ShowCase from "./Pages/ShowCase";
-import Team from "./Pages/Team";
-import Faq from "./Pages/Faq";
+
 
 function App() {
   return (
@@ -21,8 +20,7 @@ function App() {
         <About/>
         <Roadmap/>
         <ShowCase/>
-        <Team/>
-        <Faq/>
+       
         <Footer/> 
         </ThemeProvider>
      
