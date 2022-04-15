@@ -7,7 +7,7 @@ import {ThemeProvider} from "styled-components";
 import {dark} from "../styles/Themes";
 function About() {
   return (
-    <Section id="about">
+    <Section >
        <Container>
           <Box><Carousel/></Box>
           <Box>

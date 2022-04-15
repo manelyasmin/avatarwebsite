@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const NavigationStyle=styled.section`
 width:100vw;
+
 background-color: ${props => props.theme.body};
 
 `;
@@ -30,5 +31,11 @@ cursor:pointer;
 &:hover::after{
     width:100%;
 }
+
+`;
+
+export const MenuItemLink=styled.a`
+text-decoration: none;
+color:#ebc0bb;
 
 `;

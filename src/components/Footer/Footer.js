@@ -6,13 +6,17 @@ import Facebook from "../../Icons/Facebook";
 import Instgram from "../../Icons/Instagram.js";
 import LinkedIn from "../../Icons/LinkedIn.js";
 import Twitter from "../../Icons/Twitter.js";
+import LogoText from "../Logo/LogoText.element";
+import { Link } from 'react-router-dom' 
 function Footer() {
   return (
     <Section>
       <Banner/>
       <Container>
         <Left>
-          <Logo/>
+        <LogoText>   <Link to="/">
+        Jas.
+      </Link></LogoText>
           <IconList>
             <a href="http://facebook.com" target={'_blank'} rel="noopener">
             <Facebook/>

@@ -55,7 +55,7 @@ function Roadmap() {
     };
   },[]) */
   return (
-    <Section id="roadmap">
+    <Section >
       <Title>
         Roadmap
         </Title>

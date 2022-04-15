@@ -47,7 +47,7 @@ function ShowCase() {
   const Row1Ref=useRef(null);
   const Row2Ref=useRef(null);
   return (
-    <Section id="showcase">
+    <Section >
       <Row direction="none" ref={Row1Ref}>
         <NftItem img={img1} number={852} price ={1.5} passRef={Row1Ref}/>
         <NftItem img={img2} number={221} price ={1.2} passRef={Row1Ref}/>
