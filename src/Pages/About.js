@@ -7,32 +7,28 @@ import {ThemeProvider} from "styled-components";
 import {dark} from "../styles/Themes";
 function About() {
   return (
+    
     <Section >
        <Container>
           <Box><Carousel/></Box>
           <Box>
               <Title>
-              welcome to the wirdos clubs.
+              welcome to the avatar maker.
               </Title>
               <SubText>
-                 the weirdos club is a private 
-                 collection of NFTs-unique digital
-                 collectibles.the weirdos are stored ERC-721 tokens on the 
-                 ethereum blokchain and hosted on IPFS.
-
+              Use the avatar maker to bring your most creative vision to life
+              Explore all the possibilities of your avatar’s aesthetic, from realistic to cartoony to manga-inspired; the options are endless
               </SubText>
 
               <SubTextLight>
-                with more than +200 hand drawn traits,each NFT is unique and comes with a
-                membership to an exclusive group of successful 
-                investors.join an ambitous ever growing community with multiple befetis and utilities.
-
+              Customize the colors and layout, then drop in text or your logo to pull the whole design together. Upload your avatar as your profile photo on your social or streaming channels.
+              There are endless creative opportunities at your fingertips.
 
 
               </SubTextLight>
               <ButtonContainer>
               <ThemeProvider theme={dark} >
-              <Button text="JOIN OUR Discor" link="#" />
+              <Button text="CREATE NOW" link="#" />
 
               </ThemeProvider>
               </ButtonContainer>

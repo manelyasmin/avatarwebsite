@@ -7,7 +7,7 @@ import About from "./About";
 function Home() {
   return (
      
-    <HomeStyle  >
+    <HomeStyle id="home"  >
     <Container>
       <Box><TypeWriterText /></Box>
       <Box><CoverVideo/></Box>

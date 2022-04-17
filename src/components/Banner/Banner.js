@@ -1,11 +1,11 @@
 import React from 'react'
 import {Section,ImgContainer,Title,BtnContainer,JoinNo} from "./Banner.element.js";
-import img1 from "../../assets/Nfts/bighead-1.svg"
-import img2 from "../../assets/Nfts/bighead-2.svg"
-import img3 from "../../assets/Nfts/bighead-3.svg"
-import img4 from "../../assets/Nfts/bighead-4.svg"
-import img5 from "../../assets/Nfts/bighead-5.svg"
-import img6 from "../../assets/Nfts/bighead-6.svg"
+import img1 from "../../assets/Nfts/bighead-1.png"
+import img2 from "../../assets/Nfts/bighead-2.png"
+import img3 from "../../assets/Nfts/bighead-3.png"
+import img4 from "../../assets/Nfts/bighead-4.png"
+import img5 from "../../assets/Nfts/bighead-5.png"
+import img6 from "../../assets/Nfts/bighead-6.png"
 import Button from "../Button/Button";
 const Banner = () => {
   return (

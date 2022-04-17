@@ -1,30 +1,12 @@
-import React from 'react'
+import React,{useState} from 'react'
 import NavBar from "./NavBar.element";
-import Logo from "../Logo/Logo";
 import Button from "../Button/Button"
-import { NavLink } from 'react-router-dom';
-import {useState}  from 'react'
 import { Link } from 'react-router-dom' 
-import About from "../../Pages/About";
-import {Routes,Route,BrowserRouter as Router} from "react-router-dom";
 import LogoText from "../Logo/LogoText.element";
-import {MenuItem,Menu,NavigationStyle,MenuItemLink} from "./Navigation.element";
-import { BrowserRouter } from 'react-router-dom';
-function Navigation() {
-/*   const scrollTo=(id)=>{
-    let element=document.getElementById(id);
-    element.scrollIntoView({
-      behavior:'smooth',
-      block:'start',
-      inline:'nearest'
-    })
-  } */
+import {MenuItem,Menu,NavigationStyle,HamburgerMenu} from "./Navigation.element";
 
-     const [click,setClick]=useState(false);
-    const changeClick=() => {
-        setClick(!click);
-        console.log(click);
-    }
+function Navigation() {
+const [click,setClick]=useState(false);
 
   return (
     <NavigationStyle> 
@@ -35,7 +17,9 @@ function Navigation() {
     <LogoText>   <Link to="/">
         Jas.
       </Link></LogoText>
-    
+    <HamburgerMenu click={click} onClick={()=>setClick(!click)}>
+      &nbsp;
+      </HamburgerMenu>
           <Menu>
           
             <MenuItem>
@@ -49,7 +33,7 @@ function Navigation() {
               <Link to="/roadmap">Roadmap</Link>
             </MenuItem>
             <MenuItem>
-              <Link to="/showcase">ShowCase</Link>
+              <Link to="/showcase">Premuim</Link>
             </MenuItem>
           </Menu>
           

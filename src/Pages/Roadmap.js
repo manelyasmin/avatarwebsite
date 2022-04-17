@@ -65,11 +65,11 @@ function Roadmap() {
           </SvgContainer>
           <Items>
             <Item>&nbsp;</Item>
-             <RoadMapItem addToRef={addToRef} title="Grand Opening" subtext="Lorem Ipsum dolor sit amet consectetur,Lorem Ipsum dolor sit amet consectetur Lorem Ipsum dolor sit amet consectetur" />
-             <RoadMapItem addToRef={addToRef} title="Great Benefits" subtext="Lorem Ipsum dolor sit amet consectetur,Lorem Ipsum dolor sit amet consectetur Lorem Ipsum dolor sit amet consectetur" />
-             <RoadMapItem addToRef={addToRef} title="Early Access" subtext="Lorem Ipsum dolor sit amet consectetur,Lorem Ipsum dolor sit amet consectetur Lorem Ipsum dolor sit amet consectetur" />
-             <RoadMapItem addToRef={addToRef} title="New Merch" subtext="Lorem Ipsum dolor sit amet consectetur,Lorem Ipsum dolor sit amet consectetur Lorem Ipsum dolor sit amet consectetur" />
-             <RoadMapItem addToRef={addToRef} title="Holders Ranking" subtext="Lorem Ipsum dolor sit amet consectetur,Lorem Ipsum dolor sit amet consectetur Lorem Ipsum dolor sit amet consectetur" />
+             <RoadMapItem addToRef={addToRef} title="Start with inspiration" subtext="We hook you up with thousands of professionally designed templates, so you’re never starting from a blank canvas to have fresh inspiration at your fingertips." />
+             <RoadMapItem addToRef={addToRef} title="Remix it to make it your own " subtext="to personalize your avatar templates. Change up the copy and font. Sub out the imagery with your photos." />
+             <RoadMapItem addToRef={addToRef} title="Amp up the flair" subtext="It’s easy to add extra flair and personality to your projects with our exclusive design assets. Add animated stickersYou can also add collaborators to your project so that you can have a more hands-on-deck bringing your design to life." />
+             <RoadMapItem addToRef={addToRef} title="Resize to make your content go further" subtext="Gone are the days of having to memorize image dimensions for every single platform. Once you’ve landed on a design you like, you can easily modify it for any printed need or social network by using our handy, auto-magical resize featur." />
+             <RoadMapItem addToRef={addToRef} title="Save and share your custom avatar" subtext="Once your design is complete, hit that publish button and share your creation with others. Creative Cloud Express saves your results,and buy it ." />
               
           </Items>
 

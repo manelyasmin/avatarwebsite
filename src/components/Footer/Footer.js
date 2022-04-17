@@ -39,7 +39,7 @@ function Footer() {
         <Item>Home</Item>
         <Item>About</Item>
         <Item>Roadmap</Item>
-        <Item>showacase</Item>
+        <Item>Premuim</Item>
         </MenuItems>
       
       </Container>
