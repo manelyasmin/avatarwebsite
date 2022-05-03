@@ -2,7 +2,7 @@
   "name": "nftprj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manelyasmin.github.io",
+  "homepage": "https://manelyasmin.github.io/nftwebsite",
   "dependencies": {
     "@fontsource/akaya-telivigala": "^4.5.5",
     "@fontsource/sora": "^4.5.5",
