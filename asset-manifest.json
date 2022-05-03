@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/nftwebsite/static/css/main.910e2740.css",
+    "main.js": "/nftwebsite/static/js/main.330b58af.js",
+    "static/media/akaya-telivigala-all-400-normal.woff": "/nftwebsite/static/media/akaya-telivigala-all-400-normal.78fd8cb2a221beeb77ce.woff",
+    "static/media/bighead-7.png": "/nftwebsite/static/media/bighead-7.a4b39893d1a7ea22c6f1.png",
+    "static/media/akaya-telivigala-telugu-400-normal.woff2": "/nftwebsite/static/media/akaya-telivigala-telugu-400-normal.cc24af700d82d6ced8f6.woff2",
+    "static/media/bighead-6.png": "/nftwebsite/static/media/bighead-6.1808346413527b4f7fd1.png",
+    "static/media/bighead-1.png": "/nftwebsite/static/media/bighead-1.be8b6af0f05aae9d0359.png",
+    "static/media/bighead-5.png": "/nftwebsite/static/media/bighead-5.668c1598393f5c1fef88.png",
+    "static/media/bighead-4.png": "/nftwebsite/static/media/bighead-4.f4dfe0baccd9a79462da.png",
+    "static/media/bighead-3.png": "/nftwebsite/static/media/bighead-3.3b3d70028efd30bf82c3.png",
+    "static/media/bighead-2.png": "/nftwebsite/static/media/bighead-2.0b889f5fb65c187da0cd.png",
+    "static/media/akaya-telivigala-latin-400-normal.woff2": "/nftwebsite/static/media/akaya-telivigala-latin-400-normal.6adfb2bb1dd65aa73a6c.woff2",
+    "static/media/sora-all-400-normal.woff": "/nftwebsite/static/media/sora-all-400-normal.fc2a204a844d60c30272.woff",
+    "static/media/akaya-telivigala-latin-ext-400-normal.woff2": "/nftwebsite/static/media/akaya-telivigala-latin-ext-400-normal.806924fe3d6edb5e4e59.woff2",
+    "static/media/sora-latin-400-normal.woff2": "/nftwebsite/static/media/sora-latin-400-normal.5be02e543277b2b97d38.woff2",
+    "static/media/sora-latin-ext-400-normal.woff2": "/nftwebsite/static/media/sora-latin-ext-400-normal.b6e3517b818e007ea289.woff2",
+    "static/media/Arrow.svg": "/nftwebsite/static/media/Arrow.94ea34e744b92c5dad541e35d3a63dab.svg",
+    "index.html": "/nftwebsite/index.html",
+    "main.910e2740.css.map": "/nftwebsite/static/css/main.910e2740.css.map",
+    "main.330b58af.js.map": "/nftwebsite/static/js/main.330b58af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.910e2740.css",
+    "static/js/main.330b58af.js"
+  ]
+}
