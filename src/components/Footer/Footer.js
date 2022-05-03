@@ -8,6 +8,11 @@ import LinkedIn from "../../Icons/LinkedIn.js";
 import Twitter from "../../Icons/Twitter.js";
 import LogoText from "../Logo/LogoText.element";
 import { Link } from 'react-router-dom' 
+import {Routes,Route} from "react-router-dom";
+import Home from "../../Pages/Home";
+import About from "../../Pages/About";
+import ShowCase from "../../Pages/ShowCase";
+import Roadmap  from "../../Pages/Roadmap" 
 function Footer() {
   return (
     <Section>
@@ -36,12 +41,12 @@ function Footer() {
           </IconList>
         </Left>
         <MenuItems>
-        <Item>Home</Item>
-        <Item>About</Item>
-        <Item>Roadmap</Item>
-        <Item>Premuim</Item>
+        <Item><Link to="/">Home</Link></Item>
+        <Item><Link to="/">About</Link></Item>
+        <Item><Link to="/">RoadMap</Link></Item>
+        <Item><Link to="/">Premuim</Link></Item>
         </MenuItems>
-      
+        
       </Container>
       <Bottom>
           <span>
@@ -49,6 +54,9 @@ function Footer() {
           </span>
            
         </Bottom>
+       
+       
+       
       </Section>
   )
 }

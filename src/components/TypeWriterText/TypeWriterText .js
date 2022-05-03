@@ -13,13 +13,13 @@ const TypeWriterText = () => {
       loop:true,
     }}
     onInit={(typewriter)=> {
-      typewriter.typeString('<span class="text-1">Create your own avatar.</span>')
+      typewriter.typeString('<span class="text-1">customized.</span>')
       .pauseFor(2000)
       .deleteAll()
       .typeString('<span class="text-2">for free.</span>')
       .pauseFor(2000)
       .deleteAll()
-      .typeString('<span class="text-3">in different styles</span>')
+      .typeString('<span class="text-3">different styles.</span>')
       .pauseFor(2000)
       .deleteAll()
       .start() 

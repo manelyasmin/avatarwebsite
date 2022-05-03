@@ -13,7 +13,26 @@ export const Menu=styled.ul`
     justify-content:space-between;
     align-items:center;
     list-style:none;
- 
+    @media (max-width: 64em) {
+     position:fixed;
+     top:${props=>props.theme.navHeight};
+     left:0;
+     right:0;
+     bottom:0;
+     width:100vw;
+     height:${props=>`calc( 100vh - ${props.theme.navhight})`};
+    z-index:50;
+    background-color:${props=>`rgba(${props.theme.bodyRgba},0.85)`};
+    backdrop-filter:blur(2px);
+    transform:${props => props.click ? 'translateY(0)' :'translateY(1000%)'};
+    transition:all 0.3s ease;
+
+
+    flex-direction:column;
+    justify-content:center;
+    touch-action:none;
+ }
+
 `;
 
 export const MenuItem=styled.li`
@@ -31,34 +50,49 @@ cursor:pointer;
 &:hover::after{
     width:100%;
 }
-display:none;
+/* display:flex; */
+
+
+@media (max-width: 64em) {
+
+margin: 1rem 0;
+&::after{
+     
+   display:none;
+   
+}
+}
 `;
 
  
 
 
-
 export const HamburgerMenu=styled.span`
-width:1.5rem;
+width:${props=>props.click ?'2rem' : '1.5rem'};;
 height:2px;
 background:${props=>props.theme.text};
 position:absolute;
 top:2rem;
 left:50%;
 transform:${props=>props.click ? 'translateX(-50%) rotate(90deg)': 'translateX(-50%) rotate(0deg)'};
-display:flex;
+display:none;
 justify-content:center;
 align-items:center;
 cursor:pointer;
 transition:all 0.3s ease;
+@media (max-width: 64em ){
+    /*it s the equivalnt of 1024px*/
+    display:flex;
 
+}
 &::after,&::before{
     content:'';
-    width:1.5rem;
+    width:${props=>props.click ?'1rem' : '1.5rem'};
     height:2px;
+    right:${props=>props.click ?'-2px' : '0'};
     background:${props=>props.theme.text};
     position:absolute;
-
+    transition:all 0.3s ease;
 
 }
 

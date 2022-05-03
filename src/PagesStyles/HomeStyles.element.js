@@ -14,7 +14,7 @@ font-size:${props=>props.theme.fontxl};
 position:absolute;
 top:50%;
 left:50%;
-transform:transalte(-50%,-50%);
+transform:translate(-50%,-50%);
 
 `;
 
@@ -37,7 +37,21 @@ margin:0 auto;
 display:flex;
 justify-content:center;
 align-items:center;
-`;
+
+@media( max-width: 64em){
+    width:85%;
+}
+
+@media( max-width : 48em)
+{
+    flex-direction:column-reverse;
+    width:100%;
+    &>*:first-child{
+        width:100%;
+        margin-top:.5rem;
+
+    }
+}`;
 
 export const Box=styled.div`
 width:50%;

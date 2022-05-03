@@ -29,7 +29,9 @@ function App() {
                   
         </Routes> 
         
-        <Footer/>   
+        <Footer>
+         
+          </Footer>   
          <ScrolltoTop/>   
         </ThemeProvider>
 

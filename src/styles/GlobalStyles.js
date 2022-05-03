@@ -6,7 +6,13 @@ import "@fontsource/sora";
 
 
 export const GlobalStyles=createGlobalStyle`
-
+/* *{
+    outline:1px solid red !important;
+} */
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+}
 body{
     font-family:sans-serif;
     overflow-x:hidden;

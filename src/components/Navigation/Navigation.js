@@ -20,25 +20,36 @@ const [click,setClick]=useState(false);
     <HamburgerMenu click={click} onClick={()=>setClick(!click)}>
       &nbsp;
       </HamburgerMenu>
-          <Menu>
+          <Menu click={click}>
           
-            <MenuItem>
+            <MenuItem onClick={()=>setClick(!click)}>
           
-              <Link to="/">Home</Link>
+              <Link to="/"  >Home</Link>
             </MenuItem>
-            <MenuItem>
+            <MenuItem onClick={()=>setClick(!click)}>
               <Link to="/about">About</Link>
             </MenuItem>
-            <MenuItem>
+            <MenuItem onClick={()=>setClick(!click)}>
               <Link to="/roadmap">Roadmap</Link>
             </MenuItem>
-            <MenuItem>
+            <MenuItem onClick={()=>setClick(!click)}>
               <Link to="/showcase">Premuim</Link>
             </MenuItem>
-          </Menu>
-          
+            <MenuItem>
+            <div className="mobile">
           <Button text="connect wallet" link="https://google.com"/>
-        </NavBar>
+       
+          </div>
+            </MenuItem>
+
+
+
+          </Menu>
+          <div className="desktop">
+          <Button text="connect wallet" link="https://google.com"/>
+       
+          </div>
+          </NavBar>
         </NavigationStyle> 
    /*
 
